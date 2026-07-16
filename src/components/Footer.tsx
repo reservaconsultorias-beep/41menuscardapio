@@ -1,4 +1,3 @@
-import logoImage from "../assets/41menus.png";
 import React from 'react';
 import { Instagram, ShieldCheck } from "lucide-react";
 
@@ -11,7 +10,7 @@ export default function Footer() {
           <div className="font-extrabold text-white text-2xl flex items-center gap-2 justify-center md:justify-start">
             <div className="w-8 h-8 bg-black rounded-full border-2 border-white flex items-center justify-center flex-shrink-0 relative overflow-hidden">
               <img
-                src={logoImage}
+                src="/41menus.png"
                 alt=""
                 className="w-full h-full object-cover absolute inset-0 z-20"
                 onError={(e) => {

@@ -1,4 +1,3 @@
-import logoImage from "../assets/41menus.png";
 import React from 'react';
 import { X, Pizza, ArrowRight } from "lucide-react";
 
@@ -24,7 +23,7 @@ export default function PizzaDayModal({ isOpen, onClose, onAction }: PizzaDayMod
         
         <div className="relative w-full h-[40vh] sm:h-[350px] bg-[#8b0000] overflow-hidden">
           <img
-            src={logoImage}
+            src="/41menus.png"
             alt="Dia da Pizza"
             className="w-full h-full object-cover object-center"
           />

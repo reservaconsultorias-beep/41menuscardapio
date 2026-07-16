@@ -1,7 +1,5 @@
 // Commit trigger - updated
 import { supabase } from "./lib/supabase";
-import capaImage from "./assets/capa41.png";
-import logoImage from "./assets/41menus.png";
 import React, { useState, useEffect, useMemo } from "react";
 import { useMenu } from "./hooks/useMenu";
 import {
@@ -292,7 +290,7 @@ function App() {
       {/* Hero Banner */}
       <div className="relative h-[220px] md:h-[280px] w-full bg-black max-w-7xl mx-auto md:mt-4 md:rounded-2xl overflow-hidden shadow-sm">
         <img
-          src={capaImage}
+          src="/capa41.png"
           className="w-full h-full object-cover opacity-80"
           alt="Pizza Hero Background"
         />
@@ -300,7 +298,7 @@ function App() {
         <div className="absolute bottom-6 left-6 md:left-12 flex items-center gap-4">
           <div className="w-24 h-24 bg-black rounded-full border-4 border-white flex items-center justify-center text-white scale-110 shadow-xl overflow-hidden drop-shadow-2xl relative group">
             <img
-              src={logoImage}
+              src="/41menus.png"
               alt="41 Menu's"
               className="w-full h-full object-cover absolute inset-0 z-20"
               onError={(e) => {
