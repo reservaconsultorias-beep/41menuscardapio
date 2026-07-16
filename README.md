@@ -4,9 +4,11 @@
 
 # Run and deploy your AI Studio app
 
-This contains everything you need to run your app locally.
+This contains everything you need to run your app locally. You can deploy this app to Vercel easily.
 
 View your app in AI Studio: https://ai.studio/apps/d1d412e6-2370-4160-8f5a-3fc631730f18
+
+Deploy this app to Vercel easily.
 
 ## Run Locally
 
